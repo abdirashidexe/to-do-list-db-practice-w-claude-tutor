@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     res.send('backend is running!')
 })
 
-app.listen(port, () => {
+app.listen(port,'0.0.0.0', () => {
     console.log(`app is listening on port: http://localhost:${port}`)
 })

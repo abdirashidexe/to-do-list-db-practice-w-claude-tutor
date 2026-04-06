@@ -2,16 +2,20 @@
   "name": "to-do-list-db-practice",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.19.1",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sequelize": "^6.37.8"
   },
   "devDependencies": {
     "babel-plugin-react-compiler": "1.0.0",

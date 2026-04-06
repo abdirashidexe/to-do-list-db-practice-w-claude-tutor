@@ -2,7 +2,6 @@
   "name": "to-do-list-db-practice",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "homepage": "",
   "scripts": {
     "dev": "next dev --webpack",
